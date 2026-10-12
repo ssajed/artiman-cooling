@@ -1,0 +1,346 @@
+{
+  "models": {
+    "open": ["OCS-15", "OCS-25", "OCS-33", "OCS-50", "OCS-72", "OCS-72B", "OCS-100", "OCS-100B", "OCS-140", "OCS-190"],
+    "closed": ["CCS-15", "CCS-25", "CCS-33", "CCS-50", "CCS-72", "CCS-72B", "CCS-100", "CCS-100B", "CCS-140", "CCS-190"]
+  },
+
+  "fan_sizes": {
+    "OCS-15": {"size": "F0.9", "type": "PA"},
+    "OCS-25": {"size": "F1.1", "type": "FRP"},
+    "OCS-33": {"size": "F1.2", "type": "FRP"},
+    "OCS-50": {"size": "F1.6", "type": "FRP"},
+    "OCS-72": {"size": "F1.6", "type": "FRP"},
+    "OCS-72B": {"size": "F1.8", "type": "FRP"},
+    "OCS-100": {"size": "F1.8", "type": "FRP"},
+    "OCS-100B": {"size": "F2.2", "type": "FRP"},
+    "OCS-140": {"size": "F2.2", "type": "FRP"},
+    "OCS-190": {"size": "F2.75", "type": "FRP"}
+  },
+
+  "materials": [
+    {"code": "M01", "resin": "پلی استر ایزوفتالیک", "bolt_body": "HDG", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M02", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M03", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M04", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M05", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M06", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "SS304", "grade": "P"},
+    {"code": "M07", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "SS316", "grade": "P"},
+    {"code": "M08", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M09", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "HDG", "grade": "P"},
+    {"code": "M10", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304", "grade": "P"},
+    {"code": "M11", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316", "grade": "P"},
+    {"code": "M12", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304L", "grade": "P"},
+    {"code": "M13", "resin": "پلی استر ایزوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316L", "grade": "P"},
+    {"code": "M14", "resin": "پلی استر اورتوفتالیک", "bolt_body": "HDG", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M15", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M16", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M17", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M18", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M19", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "SS304", "grade": "H"},
+    {"code": "M20", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "SS316", "grade": "H"},
+    {"code": "M21", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M22", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "HDG", "grade": "H"},
+    {"code": "M23", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304", "grade": "H"},
+    {"code": "M24", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316", "grade": "H"},
+    {"code": "M25", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304L", "grade": "H"},
+    {"code": "M26", "resin": "پلی استر اورتوفتالیک", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316L", "grade": "H"},
+    {"code": "E01", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "HDG", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E02", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E03", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E04", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E05", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E06", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "SS304", "grade": "M"},
+    {"code": "E07", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "SS316", "grade": "M"},
+    {"code": "E08", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E09", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "HDG", "grade": "M"},
+    {"code": "E10", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304", "grade": "M"},
+    {"code": "E11", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316", "grade": "M"},
+    {"code": "E12", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304L", "grade": "M"},
+    {"code": "E13", "resin": "پلی استر ایزوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316L", "grade": "M"},
+    {"code": "E14", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "HDG", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E15", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E16", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "HDG", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E17", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E18", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E19", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304", "chassis_fan": "SS304", "grade": "E"},
+    {"code": "E20", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316", "chassis_fan": "SS316", "grade": "E"},
+    {"code": "E21", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E22", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "HDG", "grade": "E"},
+    {"code": "E23", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304", "grade": "E"},
+    {"code": "E24", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316", "grade": "E"},
+    {"code": "E25", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS304", "chassis_packing_drop": "SS304L", "chassis_fan": "SS304L", "grade": "E"},
+    {"code": "E26", "resin": "پلی استر اورتوفتالیک + فیلر", "bolt_body": "SS316", "chassis_packing_drop": "SS316L", "chassis_fan": "SS316L", "grade": "E"}
+  ],
+    "packing_types": {
+    "12PP": { "name": "پکینگ فیلم گام 12 جنس PP", "heights": ["300", "600", "900"] },
+    "12PVC": { "name": "پکینگ فیلم گام 12 جنس PVC", "heights": ["300", "600", "900"] },
+    "19PP": { "name": "پکینگ فیلم گام 19 جنس PP", "heights": ["300", "600", "900"] },
+    "19PVC": { "name": "پکینگ فیلم گام 19 جنس PVC", "heights": ["300", "600", "900"] },
+    "NT1": { "name": "پکینگ نت اسپلش خارجی (600x900x450)", "heights": ["450", "900"] },
+    "NT2": { "name": "پکینگ نت اسپلش ایرانی (300x300x1000)", "heights": ["300", "600", "900"] }
+  },
+
+  "coil_options": {
+    "C01": { "code": "C01", "material": "HDG", "desc": "کویل با لوله درز دار ضخامت 2.11 میلیمتر معادل 10 SCH گالوانیزه گرم شده" },
+    "C02": { "code": "C02", "material": "HDG", "desc": "کویل با لوله درز دار ضخامت 1.5 میلیمتر معادل 5 SCH گالوانیزه گرم شده" },
+    "C03": { "code": "C03", "material": "HDG", "desc": "کویل با لوله بدون درز 10 SCH گالوانیزه گرم شده" },
+    "C04": { "code": "C04", "material": "HDG", "desc": "کویل با لوله بدون درز 5 SCH گالوانیزه گرم شده" },
+    "C05": { "code": "C05", "material": "SS304", "desc": "کویل با لوله SS304 بدون درز SCH10s" },
+    "C06": { "code": "C06", "material": "SS316", "desc": "کویل با لوله SS316 بدون درز SCH10s" },
+    "C07": { "code": "C07", "material": "SS316L", "desc": "کویل با لوله SS316L بدون درز SCH10s" },
+    "C08": { "code": "C08", "material": "SS304", "desc": "کویل با لوله SS304 بدون درز SCH5s" },
+    "C09": { "code": "C09", "material": "SS316", "desc": "کویل با لوله SS316 بدون درز SCH5s" },
+    "C10": { "code": "C10", "material": "SS316L", "desc": "کویل با لوله SS316L بدون درز SCH5s" },
+    "C11": { "code": "C11", "material": "CU", "desc": "کویل با لوله مسی ضخامت 0.8 میلیمتر" },
+    "C12": { "code": "C12", "material": "CU", "desc": "کویل با لوله مسی ضخامت 1.2 میلیمتر" }
+  },
+
+  "coil_passes": {
+    "CCS-15": ["1"],
+    "CCS-25": ["1", "2"],
+    "CCS-33": ["1", "2"],
+    "CCS-50": ["1", "2"],
+    "CCS-72": ["1", "2"],
+    "CCS-72B": ["1", "2"],
+    "CCS-100": ["1", "3"],
+    "CCS-100B": ["1", "3"],
+    "CCS-140": ["1", "2", "4"],
+    "CCS-190": ["1", "2", "4"]
+  },
+
+  "fan_blades": {
+    "PA": ["5", "7", "9"],
+    "FRP": ["4", "6", "8"]
+  },
+
+  "motor_powers": ["0.55", "0.75", "1.1", "1.5", "2.2", "3", "4", "5.5", "7.5", "9", "11", "15", "18.5", "22", "30"],
+
+  "reduction_systems": ["M4", "M6", "M8", "GB", "BP"],
+
+  "default_fan_code": {
+    "FRP": "F106",
+    "PA": "F201"
+  },
+
+  "nozzles": {
+    "N1": { "code": "N1", "name": "Dek Spray نازل", "default": true },
+    "N2": { "code": "N2", "name": "نازل اضافی Spray Dek" },
+    "N3": { "code": "N3", "name": "HEWITECH U3 نازل" },
+    "N4": { "code": "N4", "name": "HAMON HA50 نازل" }
+  },
+
+  "louvers": {
+    "L1": { "code": "L1", "name": "لانه زنبوری PVC", "default": true },
+    "L2": "لانه زنبوری PP",
+    "L3": "تیغه ای FRP",
+    "L4": "تیغه ای PVC",
+    "L5": "تیغه ای PP",
+    "L6": "تیغه ای SS304",
+    "L7": "تیغه ای SS316",
+    "L8": "تیغه ای HDG"
+  },
+
+  "drop_eliminators": {
+    "D1": { "code": "D1", "name": "لانه زنبوری PVC", "default": true },
+    "D2": "لانه زنبوری PP",
+    "D3": "تیغه ای PVC",
+    "D4": "تیغه ای PP",
+    "D5": "تیغه ای SS304",
+    "D6": "تیغه ای SS316",
+    "D7": "تیغه ای HDG"
+  },
+
+  "ladders": {
+    "S1": { "code": "S1", "name": "نردبان استاندارد", "default": true },
+    "S2": "نردبان پلت فرم دار تا فن استک",
+    "S3": "نردبان پلت فرم دار تا موتور گیربکس",
+    "S4": "نردبان پلت فرم دار تا برج مجاور",
+    "S5": "نردبان پلت فرم دار به همراه حفاظ دور فن استک"
+},
+
+  "access_panels": {
+    "A1": { "code": "A1", "name": "یک عدد", "default": true },
+    "A2": "یک سمت کامل",
+    "A3": "دو سمت کامل",
+    "A4": "سه سمت کامل"
+  },
+"inlet_pipes": {
+  "P01": "لوله UPVC فشار قوی 10 بار - یک عدد فلنج ورودی",
+  "P02": "لوله UPVC فشار قوی 10 بار - دو عدد فلنج ورودی",
+  "P03": "لوله UPVC فشار قوی 12.5 بار - یک عدد فلنج ورودی",
+  "P04": "لوله UPVC فشار قوی 12.5 بار - دو عدد فلنج ورودی",
+  "P05": "لوله PE فشار قوی 10 بار - یک عدد فلنج ورودی",
+  "P06": "لوله PE فشار قوی 10 بار - دو عدد فلنج ورودی",
+  "P07": "لوله گالوانیزه گرم ضخامت 4mm - یک عدد فلنج ورودی",
+  "P08": "لوله گالوانیزه گرم ضخامت 4mm - دو عدد فلنج ورودی",
+  "P09": "لوله SS304 ضخامت 4mm - یک عدد فلنج ورودی",
+  "P10": "لوله SS304 ضخامت 4mm - دو عدد فلنج ورودی",
+  "P11": "لوله SS316 ضخامت 4mm - یک عدد فلنج ورودی",
+  "P12": "لوله SS316 ضخامت 4mm - دو عدد فلنج ورودی"
+},
+
+"flanges": {
+  "SF01": "یک عدد فلنج 4 اینچ بر روی دیواره حوضچه",
+  "SF02": "دو عدد فلنج 4 اینچ بر روی دیواره حوضچه",
+  "SF03": "سه عدد فلنج 4 اینچ بر روی دیواره حوضچه",
+  "SF04": "یک عدد فلنج 6 اینچ بر روی دیواره حوضچه",
+  "SF05": "دو عدد فلنج 6 اینچ بر روی دیواره حوضچه",
+  "SF06": "سه عدد فلنج 6 اینچ بر روی دیواره حوضچه",
+  "SF07": "یک عدد فلنج 8 اینچ بر روی دیواره حوضچه",
+  "SF08": "دو عدد فلنج 8 اینچ بر روی دیواره حوضچه",
+  "SF09": "سه عدد فلنج 8 اینچ بر روی دیواره حوضچه",
+  "BF01": "یک عدد فلنج 4 اینچ بر روی کف حوضچه",
+  "BF02": "دو عدد فلنج 4 اینچ بر روی کف حوضچه",
+  "BF03": "سه عدد فلنج 4 اینچ بر روی کف حوضچه",
+  "BF04": "یک عدد فلنج 6 اینچ بر روی کف حوضچه",
+  "BF05": "دو عدد فلنج 6 اینچ بر روی کف حوضچه",
+  "BF06": "سه عدد فلنج 6 اینچ بر روی کف حوضچه",
+  "BF07": "یک عدد فلنج 8 اینچ بر روی کف حوضچه",
+  "BF08": "دو عدد فلنج 8 اینچ بر روی کف حوضچه",
+  "BF09": "سه عدد فلنج 8 اینچ بر روی کف حوضچه"
+},
+
+  "gelcoats": {
+    "GC01": { "code": "GC01", "name": "ژل کوت سفید RAL", "default": true },
+    "GC02": "ژل کوت طوسی RAL",
+    "GC03": "ژل کوت کرم RAL",
+    "GC04": "ژل کوت آبی RAL"
+  },
+
+  "fittings": {
+    "FT1": { "code": "FT1", "name": "DIN/ISO", "default": true },
+    "FT2": "ANSI"
+  },
+
+  "threads": {
+    "MT": { "code": "MT", "name": "Metric", "default": true },
+    "IN": "US"
+  },
+  
+"motor_brands": {
+    "IR": { "code": "IR", "name": "موتور - برند ایرانی" },
+    "CN": { "code": "CN", "name": "موتور - برند چینی" },
+    "TR": { "code": "TR", "name": "موتور - برند ترکی" },
+    "EU": { "code": "EU", "name": "موتور - برند اروپایی" }
+},
+
+"belt_types": {
+    "B1": { "code": "B1", "name": "هوزینگ آرتیمان و پولی قفل دار" },
+    "B2": { "code": "B2", "name": "هوزینگ آرتیمان و پولی چدنی ساده" },
+    "B3": { "code": "B3", "name": "هوزینگ معمولی و پولی قفل دار" },
+    "B4": { "code": "B4", "name": "هوزینگ معمولی و پولی چدنی ساده" }
+},
+
+"gearbox_brands": {
+    "G1": { "code": "G1", "name": "گیربکس - برند ایرانی" },
+    "G2": { "code": "G2", "name": "گیربکس - برند چینی" },
+    "G3": { "code": "G3", "name": "گیربکس - برند ترکی" },
+    "G4": { "code": "G4", "name": "گیربکس - برند اروپایی" }
+}, 
+  
+
+
+  "ladder_locations": {
+    "ST1": { "code": "ST1", "name": "سمت راست لوله ورودی " },
+    "ST2": "سمت چپ لوله ورودی",
+    "ST3": "سمت مقابل لوله ورودی "
+  },
+
+  "flange_locations": {
+    "CL1": "هم جهت لوله ورودی (دیواره)",
+    "CL2": "سمت راست لوله ورودی",
+    "CL3": "سمت چپ لوله ورودی",
+    "CL4": "سمت مقابل لوله ورودی",
+    "CL5": "کف حوضچه آب سرد"
+  },
+
+"access_locations": {
+  "AL1": "سمت مقابل لوله ورودی",
+  "AL2": "سمت راست لوله ورودی",
+  "AL3": "سمت چپ لوله ورودی",
+  "AL4": "سمت راست و سمت چپ لوله ورودی",
+  "AL5": "سمت راست و سمت مقابل لوله ورودی",
+  "AL6": "سمت چپ و سمت مقابل لوله ورودی",
+  "AL7": "هر سه سمت"
+},
+  "fan_table":  [
+    {"code": "F101", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F102", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F103", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F104", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F105", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F106", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F107", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F108", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F109", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F110", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F111", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F112", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F113", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F114", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F115", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F116", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F117", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F118", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F119", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F120", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F121", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F122", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F123", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F124", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F125", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F126", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F127", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F128", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F129", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F130", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 5", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F201", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F202", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F203", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F204", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F205", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F206", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F207", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F208", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F209", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل W", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F301", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F302", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F303", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F304", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F305", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F306", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F307", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F308", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F309", "resin": "پلی آمید", "profile": "فن پلی آمید پروفیل Z", "hab": "AL", "clamp": "AL", "nafi": "AL", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F401", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F402", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F403", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F404", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F405", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F406", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "HDG"},
+    {"code": "F407", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F408", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F409", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "HDG"},
+    {"code": "F410", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "HDG"},
+    {"code": "F411", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F412", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F413", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F414", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F415", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F416", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS304"},
+    {"code": "F417", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F418", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F419", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS304"},
+    {"code": "F420", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS304"},
+    {"code": "F421", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F422", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F423", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F424", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F425", "resin": "پلی استر ایزوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F426", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "HDG", "chassis_motor": "SS316"},
+    {"code": "F427", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F428", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "HDG", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"},
+    {"code": "F429", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS304", "clamp": "AL", "nafi": "CI", "bolt": "SS304", "chassis_motor": "SS316"},
+    {"code": "F430", "resin": "پلی استر اورتوفتالیک", "profile": "پروفیل 1 شنک فلزی", "hab": "SS316", "clamp": "AL", "nafi": "CI", "bolt": "SS316", "chassis_motor": "SS316"}
+  ]
+}

@@ -1,0 +1,20 @@
+# Secrets and local configuration
+config.php
+.env
+.env.*
+!.env.example
+
+# Logs and debug tools
+error_log
+*.log
+phpinfo.php
+
+# Archives and large bundles
+*.zip
+
+# Temporary and test files
+api_test.php
+test_json.php
+
+# Git internals
+.git/
